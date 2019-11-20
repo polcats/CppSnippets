@@ -1,11 +1,5 @@
 #include "testinc.hpp"
 
-#include <stdio.h>
-#include <memory>
-#include <vector>
-#include <iostream>
-
-
 struct ParentClassA;
 struct ParentClassB;
 template <class Parent>
@@ -14,17 +8,16 @@ struct Common;
 typedef Common<ParentClassA> ParentClassA_t;
 typedef Common<ParentClassB> ParentClassB_t;
 
-
 struct ParentClassA
 {
-    ParentClassA() =  default;
+    ParentClassA() = default;
     uint8_t a{};
     uint8_t b{};
 };
 
 struct ParentClassB
 {
-    ParentClassB() =  default;
+    ParentClassB() = default;
     uint8_t a{};
     uint8_t b{};
 };
@@ -32,9 +25,9 @@ struct ParentClassB
 template <class Parent>
 struct Common : public Parent
 {
-    Common() =  default;
-    uint8_t x {8};
-    uint8_t y {9};
+    Common() = default;
+    uint8_t x{8};
+    uint8_t y{9};
 };
 
 typedef Common<ParentClassA> ParentClassA_t;
@@ -65,4 +58,3 @@ int main()
 
     return 0;
 }
-
