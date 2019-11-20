@@ -1,4 +1,6 @@
 tmp/
+.vscode/
 
-/com.sh
-/test.cpp
+*.exe
+main.cpp
+build.sh
