@@ -1,2 +1,2 @@
 # CppSnippets
- A collection of C++ code snippets
+A collection of random C++ snippets to demonstrate different concepts
