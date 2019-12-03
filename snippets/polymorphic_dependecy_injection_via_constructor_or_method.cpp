@@ -5,7 +5,6 @@ class LightBulb
 {
 };
 
-
 // Child class
 class LightBulbBrandA : public LightBulb
 {

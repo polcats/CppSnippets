@@ -8,7 +8,7 @@ int main()
 
     // constant pointer to int variable
     int intVar = 0;
-    int *const p1 = &intVar;
+    int* const p1 = &intVar;
 
     // Const pointers
     const int constInt = 0;
