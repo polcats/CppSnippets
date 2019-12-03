@@ -1,6 +1,2 @@
-tmp/
-.vscode/
-
 *.exe
-*.sh
-main.cpp
+*.bin
